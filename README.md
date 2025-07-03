@@ -26,6 +26,8 @@ This is a full-stack project developed for the **GizanTech Web Development Recru
 ```bash
 git clone https://github.com/Robayed110/Temperature-api.git
 cd temperature-api
+npm init -y
+npm install express cors express-rate-limit dotenv
 ```
 
 ---
@@ -59,6 +61,7 @@ Your API will now run at:
 ```bash
 cd ../frontend
 npm install
+npm install chart.js react-chartjs-2 socket.io-client
 ```
 
 Create a `.env` file in `frontend/`:
