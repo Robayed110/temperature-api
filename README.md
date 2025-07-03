@@ -59,12 +59,12 @@ Your API will now run at:
 ### 3. Frontend Setup
 
 ```bash
-cd ../frontend
+cd ../front-end
 npm install
 npm install chart.js react-chartjs-2 socket.io-client
 ```
 
-Create a `.env` file in `frontend/`:
+Create a `.env` file in `front-end/`:
 
 ```env
 REACT_APP_API_URL=http://localhost:5000/temperature
